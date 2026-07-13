@@ -1,5 +1,6 @@
 import { z } from "zod";
-
+export const categories = ["cooking", "gardening", "temperature"] as const;
+// todo: fill more categories, and maybe move this to a separate file
 export const FormSchema = z.object({
   label: z.string(),
   form_value: z.string(),
@@ -32,8 +33,9 @@ export const EntrySchema = z.object({
   spellings: z.array(z.string()),
   forms: z.array(FormSchema).optional(),
   examples: z.array(ExampleSchema).optional(),
-  categories: z.array(z.string()).optional(),
+  categories: z.enum(categories).optional(),
   status: z.enum(["draft", "published"]),
+  note: z.string().optional(),
 });
 
 export type Entry = z.infer<typeof EntrySchema>;

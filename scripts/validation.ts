@@ -2,11 +2,11 @@ import { readFileSync, readdirSync } from "fs";
 import { join, relative, sep } from "path";
 import { EntrySchema, FOLDER_TO_POS } from "../schema/entry";
 
-const baseDir = "words";
+const baseDir = "entries";
 
 /**
  * If filenames are passed as CLI args (from the GitHub Action's changed-file
- * diff), validate only those. Otherwise walk every file under words/ —
+ * diff), validate only those. Otherwise walk every file under entries/ —
  * useful for running this locally with no args to check everything.
  */
 function getFilesToCheck(): string[] {

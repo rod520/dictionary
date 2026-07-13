@@ -1,0 +1,21 @@
+{
+  "konkani_word": "template",
+  "meaning": ["template"],
+  "part_of_speech": "noun",
+  "spellings": ["templates"],
+  "forms": [
+    {  
+      "label": "plural",
+      "form_value": "templates"
+    }
+  ],
+  "examples": [
+    {
+      "konkani": "template bittr gal",
+      "english": "in the template"
+    }
+  ],
+  "categories": [],
+  "status": "draft",
+  "note":""
+}
