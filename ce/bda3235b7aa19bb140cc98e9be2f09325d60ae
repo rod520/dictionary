@@ -1,0 +1,18 @@
+scripts/validation.ts
+  h_7ffaac8f5937a6 1-96
+schema/entry.ts
+  h_7ffaac8f5937a6 1-41
+.github/workflows/validate-entries.yml
+  h_7ffaac8f5937a6 1-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "cebda3235b7aa19bb140cc98e9be2f09325d60ae",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
