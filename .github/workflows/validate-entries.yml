@@ -1,0 +1,35 @@
+name: Validate Entries
+
+on:
+  pull_request:
+    paths:
+      - "words/**/*.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install zod tsx
+
+      - name: Get changed word files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only \
+            origin/${{ github.event.pull_request.base.ref }}...HEAD \
+            -- 'words/**/*.json')
+          echo "$FILES"
+          # Turn newlines into a space-separated list for the next step
+          echo "files=$(echo "$FILES" | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Validate changed entries
+        if: steps.changed.outputs.files != ''
+        run: npx tsx scripts/validate-entries.ts ${{ steps.changed.outputs.files }}

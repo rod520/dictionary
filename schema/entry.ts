@@ -1,0 +1,41 @@
+import { z } from "zod";
+
+export const FormSchema = z.object({
+  label: z.string(),
+  form_value: z.string(),
+  note: z.string().optional(),
+});
+
+export const ExampleSchema = z.object({
+  konkani_sentence: z.string(),
+  english_sentence: z.string(),
+});
+
+// Folder name (inside words/) -> the part_of_speech value expected in the file
+export const FOLDER_TO_POS = {
+  nouns: "noun",
+  verbs: "verb",
+  adjectives: "adjective",
+  adverbs: "adverb",
+  pronouns: "pronoun",
+  phrases: "phrase",
+} as const;
+
+export const PartOfSpeechSchema = z.enum(
+  Object.values(FOLDER_TO_POS) as [string, ...string[]]
+);
+
+export const EntrySchema = z.object({
+  konkani_word: z.string(),
+  meaning: z.array(z.string()).min(1),
+  part_of_speech: PartOfSpeechSchema,
+  spellings: z.array(z.string()),
+  forms: z.array(FormSchema).optional(),
+  examples: z.array(ExampleSchema).optional(),
+  categories: z.array(z.string()).optional(),
+  status: z.enum(["draft", "published"]),
+});
+
+export type Entry = z.infer<typeof EntrySchema>;
+export type Form = z.infer<typeof FormSchema>;
+export type Example = z.infer<typeof ExampleSchema>;
