@@ -1,0 +1,46 @@
+entries/verbs/kar.json
+  h_7ffaac8f5937a6 1-25
+entries/verbs/di.json
+  s_5fc4f02d0e0cd8::t_cb130c6b2b99bd 19
+  s_5fc4f02d0e0cd8::t_54961e66b0ee59 16-18
+  s_5fc4f02d0e0cd8::t_860b7501e9af1e 20-21
+package.json
+  h_7ffaac8f5937a6 7
+entries/verbs/ye.json
+  s_c2b2a1bb0ee362::t_2364ff934435ae 3
+  h_7ffaac8f5937a6 5,8-18,22
+  s_c2b2a1bb0ee362::t_edfef406a0d6cb 1-2
+entries/verbs/ghe.json
+  h_7ffaac8f5937a6 1-25
+entries/verbs/kad.json
+  h_7ffaac8f5937a6 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "9e9e29f6b93e851c9fcb8dd0310e3d7b8bf7e397",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_5fc4f02d0e0cd8": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784044591593",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_c2b2a1bb0ee362": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784042183145",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
