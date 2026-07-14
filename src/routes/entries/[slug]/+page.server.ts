@@ -14,7 +14,7 @@ import { error, json } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
-	const post = dictEntries.find((entry) => entry.path === `/entries/${params.slug}.json`);
+	const post = dictEntries.find((entry) => entry.path === `/entries/${params.slug}`);
 
 	if (post) {
 		return post;
