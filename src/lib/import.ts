@@ -5,8 +5,10 @@ export const entriesImport
  const entriesPath = Object.keys(entriesImport)
 
 export const entries = Object.values(entriesArray).map((entry, index) => { 
-entry.path = entriesPath[index]
+entry.path = entriesPath[index].replace('.json', '').replace(/^\/?entries\/(\w+)\/(\w+)$/, '/entries/$1-$2')
+console.log('entry.path:', entry.path)
     return entry
+
 }) as Entry[]
 type Entry = {
     konkani_word: string;
