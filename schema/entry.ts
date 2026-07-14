@@ -31,7 +31,7 @@ export const EntrySchema = z.object({
     konkani_word: z.string(),
     meaning: z.array(z.string()).min(1),
     part_of_speech: PartOfSpeechSchema,
-    spellings: z.array(z.string()),
+    keywords: z.array(z.string()),
     forms: z.array(FormSchema).optional(),
     examples: z.array(ExampleSchema).optional(),
     categories: z.array(z.enum(categories)).optional(),
