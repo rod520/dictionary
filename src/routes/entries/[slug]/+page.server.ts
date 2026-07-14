@@ -7,7 +7,7 @@ export const entries: EntryGenerator = () => {
     });
 };
 
-export const prerender = "auto";
+export const prerender = true;
 
 
 import { error, json } from '@sveltejs/kit';

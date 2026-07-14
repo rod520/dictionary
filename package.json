@@ -31,6 +31,8 @@
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.60.1",
 		"vite": "^8.0.16"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.10"
 	}
-	
 }
