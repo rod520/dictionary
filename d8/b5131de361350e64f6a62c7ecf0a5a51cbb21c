@@ -1,0 +1,16 @@
+src/routes/+layout.ts
+  h_7ffaac8f5937a6 1
+vite.config.ts
+  h_7ffaac8f5937a6 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "d8b5131de361350e64f6a62c7ecf0a5a51cbb21c",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
