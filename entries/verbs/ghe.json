@@ -1,0 +1,25 @@
+{
+  "konkani_word": "ghe",
+  "meaning": ["take"],
+  "part_of_speech": "verb",
+  "spellings": ["ge"],
+  "forms": [
+    {
+      "label": "past tense",
+      "form_value": "getle"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "(te) haa/u thaau ghe",
+      "english_sentence": "take (it) from me"
+    },
+    {
+      "konkani_sentence": "haav (te) getle",
+      "english_sentence": "I took (it)"
+    }
+  ],
+  "categories": [],
+  "status": "published",
+  "note":""
+}

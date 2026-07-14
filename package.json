@@ -4,6 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
+		"validate": "npm run ./scripts/validation.js",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -30,5 +31,9 @@
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.60.1",
 		"vite": "^8.0.16"
+	},
+	"dependencies": {
+		"kleur": "^4.1.5",
+		"picomatch": "^4.0.5"
 	}
 }

@@ -1,0 +1,29 @@
+{
+  "konkani_word": "ye",
+  "meaning": ["come", "arrive"],
+  "part_of_speech": "verb",
+  "spellings": ["ie"],
+  "forms": [
+    {  
+      "label": "I arrived",
+      "form_value": "ailo" 
+    },
+    {
+      "label": "you arrived",
+      "form_value": "aile"
+    },
+    {
+      "label": "you arrived",
+      "form_value": "aile"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "angaa ye",
+      "english_sentence": "in the template"
+    }
+  ],
+  "categories": ["template"],
+  "status": "draft",
+  "note":""
+}

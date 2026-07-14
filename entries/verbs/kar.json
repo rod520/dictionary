@@ -1,0 +1,25 @@
+{
+  "konkani_word": "kar",
+  "meaning": ["do", "make"],
+  "part_of_speech": "verb",
+  "spellings": [],
+  "forms": [
+{
+  "label": "past tense",
+  "form_value": "kele"
+}
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "(te) mez thaau kad",
+      "english_sentence": "take (it) from the table"
+    },
+    {
+      "konkani_sentence": "haav (te) getle",
+      "english_sentence": "I took (it)"
+    }
+  ],
+  "categories": [],
+  "status": "published",
+  "note":""
+}
