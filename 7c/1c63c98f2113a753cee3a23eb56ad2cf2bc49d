@@ -1,0 +1,72 @@
+src/routes/entries/[slug]/+page.svelte
+  s_106d4b390af053::t_1ef4b406f91e32 1
+  h_7ffaac8f5937a6 3-6
+  s_133b34e1a1c49e::t_e08e82cdc0718d 9
+src/routes/entries/[slug]/+page.server.ts
+  s_01e24a8698332a::t_fba9f693d209c1 5-6
+  h_7ffaac8f5937a6 2,7,10,13,24,26
+  s_3f261c6f356bfd::t_ba2d39b4aa1abf 17
+  s_abd590fa7d74ec::t_2b72118e2ac5c9 23
+  s_42d256c062670e::t_1199ea73d4b87a 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "7c1c63c98f2113a753cee3a23eb56ad2cf2bc49d",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_01e24a8698332a": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784049346216",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_106d4b390af053": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784049187715",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_133b34e1a1c49e": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784049427901",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_3f261c6f356bfd": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784049119467",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_42d256c062670e": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784049343976",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_abd590fa7d74ec": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784050010665",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
