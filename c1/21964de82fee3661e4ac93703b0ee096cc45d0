@@ -1,0 +1,43 @@
+src/lib/fuse.ts
+  s_0bb4eb581bfd7e::t_4e47288f1b06c0 8
+  h_7ffaac8f5937a6 3,5-7,9-10,13-14
+  s_852d77d4f70488::t_7624c76ef256f9 11-12
+  s_97f645e7a5fa15::t_e23b693cd7766b 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "c121964de82fee3661e4ac93703b0ee096cc45d0",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0bb4eb581bfd7e": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784054294627",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_852d77d4f70488": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784054346130",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_97f645e7a5fa15": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784053758175",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
