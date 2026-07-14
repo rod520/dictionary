@@ -1,5 +1,4 @@
 <script lang="ts">
-    import type { PageServerLoad } from './$types'; 
 
     	let { data } = $props();
         // svelte-ignore state_referenced_locally
