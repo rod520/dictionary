@@ -1,0 +1,14 @@
+package.json
+  h_7ffaac8f5937a6 35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "f796f63af9a7f8f1d8a900b855e340a6dcbab441",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
