@@ -1,0 +1,27 @@
+src/lib/import.ts
+  s_1a6f14a204daea::t_50cf9add77587b 4
+  h_7ffaac8f5937a6 8-12
+  s_1a6f14a204daea::t_ae98f3c935d732 2-3
+  s_1a6f14a204daea::t_40138a5333e0b7 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "715018f14c22ffe625434f6f111bb705e2a287bd",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_1a6f14a204daea": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784050151601",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
