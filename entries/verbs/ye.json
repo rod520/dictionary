@@ -2,7 +2,7 @@
   "konkani_word": "ye",
   "meaning": ["come", "arrive"],
   "part_of_speech": "verb",
-  "keywords": ["ie"],
+  "keywords": ["ie", "ye", "come", "arrive"],
   "forms": [
     {  
       "label": "I arrived",
@@ -24,6 +24,6 @@
     }
   ],
   "categories": ["template"],
-  "status": "draft",
+  "status": "published",
   "note":""
 }
