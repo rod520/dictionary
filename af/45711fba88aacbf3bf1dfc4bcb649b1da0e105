@@ -1,0 +1,38 @@
+entries/verbs/ye.json
+  h_7ffaac8f5937a6 8-9,13,16,18
+  s_0363f7151bb06f::t_f42ccf7dfac91a 17
+  s_5734b9cc77f909::t_ebc9a9c15dd1dd 12
+entries/verbs/vos.json
+  h_7ffaac8f5937a6 1-41
+entries/verbs/raau.json
+  h_7ffaac8f5937a6 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "af45711fba88aacbf3bf1dfc4bcb649b1da0e105",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0363f7151bb06f": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784136095745",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_5734b9cc77f909": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784136063803",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
