@@ -20,7 +20,7 @@ export const FOLDER_TO_POS = {
     adjectives: "adjective",
     adverbs: "adverb",
     pronouns: "pronoun",
-    phrases: "phrase",
+    misc: "misc",
 } as const;
 
 export const PartOfSpeechSchema = z.enum(
