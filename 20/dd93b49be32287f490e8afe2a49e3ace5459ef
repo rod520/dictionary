@@ -1,0 +1,46 @@
+entries/pronouns/haa__u.json
+  s_e027179bc5bcf0::t_1ec2a80ec2498b 5
+  s_eaacbacd418e59::t_44800c9957f8f5 3
+  h_7ffaac8f5937a6 4,7-23,25-31,38-39
+  s_f4c694e79f45c3::t_34a649bd7906f2 24
+  s_eaacbacd418e59::t_c779cde29389a2 2
+entries/pronouns/tu.json
+  h_7ffaac8f5937a6 2-5,7-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "20dd93b49be32287f490e8afe2a49e3ace5459ef",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_e027179bc5bcf0": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784128228807",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_eaacbacd418e59": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784127854282",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_f4c694e79f45c3": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784128015413",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
