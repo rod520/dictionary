@@ -12,7 +12,7 @@
       "english_sentence": "I'm learning konkani"
     }
   ],
-  "categories": [],
-  "status": "beginner",
+  "categories": ["beginner"],
+  "status": "published",
   "note":""
 }

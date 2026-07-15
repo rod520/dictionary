@@ -1,0 +1,41 @@
+{
+  "konkani_word": "tu",
+  "meaning": ["you"],
+  "part_of_speech": "pronoun",
+  "keywords": ["tu", "thu", "you", "your"],
+  "forms": [
+    {
+      "label": "possessive feminine (your)",
+      "form_value": "tuje"
+    },
+    {
+      "label": "possessive masculine (your)",
+      "form_value": "tuzo"
+    },
+    {
+      "label": "possessive neuter (your)",
+      "form_value": "tujya"
+    },
+    {
+      "label": "possessive plural (your)",
+      "form_value": "tuji"
+    },
+    {
+      "label": "dative (to you)",
+      "form_value": "tukaa"
+    },
+    {
+      "label": "past tense (you did)",
+      "form_value": "tuv"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "tuv konkani .sikte",
+      "english_sentence": "I'm learning konkani"
+    }
+  ],
+  "categories": ["beginner"],
+  "status": "published",
+  "note":""
+}

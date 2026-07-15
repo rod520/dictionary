@@ -15,7 +15,7 @@
       "english_sentence": "I got it"
     }
   ],
-  "categories": [],
-  "status": "beginner",
+  "categories": ["beginner"],
+  "status": "published",
   "note":""
 }

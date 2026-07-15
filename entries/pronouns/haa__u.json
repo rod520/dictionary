@@ -1,0 +1,41 @@
+{
+  "konkani_word": "haa/u",
+  "meaning": ["I", "me"],
+  "part_of_speech": "pronoun",
+  "keywords": ["haa/u", "haanv", "haav", "I", "me", "my", "mine"],
+  "forms": [
+    {
+      "label": "possessive feminine (my)",
+      "form_value": "muje"
+    },
+    {
+      "label": "possessive masculine (my)",
+      "form_value": "muzo"
+    },
+    {
+      "label": "possessive neuter (my)",
+      "form_value": "mujya"
+    },
+    {
+      "label": "possessive plural (my)",
+      "form_value": "muji"
+    },
+    {
+      "label": "dative (to me)",
+      "form_value": "makaa"
+    },
+    {
+      "label": "past tense (I did)",
+      "form_value": "haav"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "haa/u konkani .sikta",
+      "english_sentence": "I'm learning konkani"
+    }
+  ],
+  "categories": ["beginner"],
+  "status": "published",
+  "note":""
+}

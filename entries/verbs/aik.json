@@ -16,7 +16,7 @@
       "english_sentence": "listen to him/her"
     }
   ],
-  "categories": [],
-  "status": "beginner",
+  "categories": ["beginner"],
+  "status": "published",
   "note":""
 }

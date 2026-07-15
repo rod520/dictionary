@@ -19,7 +19,7 @@
       "english_sentence": "I took (it)"
     }
   ],
-  "categories": [],
-  "status": "beginner",
+  "categories": ["beginner"],
+  "status": "published",
   "note":""
 }
