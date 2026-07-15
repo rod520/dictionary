@@ -1,0 +1,23 @@
+<script lang="ts">
+
+/* eslint-disable svelte/require-each-key */
+
+/* eslint-disable svelte/no-navigation-without-resolve */
+
+import type { FuseResult } from 'fuse.js';
+    import { fuse } from '$lib/fuse';
+    let results: FuseResult<{ keyword: string; path: string; konkani_word: string; }>[] | null = $state(null);
+    let search = () => {
+        results = fuse.search(searchInput);
+    }
+    let searchInput = $state('');
+</script>
+
+<input bind:value={searchInput} on:input={search} placeholder="Search..." />
+{#if results}
+    <ul>
+        {#each results as result}
+            <a href={result.item.path}><li>{result.item.konkani_word}</li></a>
+        {/each}
+    </ul>
+{/if}
