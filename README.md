@@ -22,7 +22,7 @@ entries are .json files that follow this format:
   "examples": [
     {
       "konkani_sentence": "template bitr gal",
-      "english_sentence": "in the template"
+      "english_sentence": "put in the template"
     }
   ],
   "categories": ["template"],
