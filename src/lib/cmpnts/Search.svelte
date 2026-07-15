@@ -8,12 +8,13 @@ import type { FuseResult } from 'fuse.js';
     import { fuse } from '$lib/fuse';
     let results: FuseResult<{ keyword: string; path: string; konkani_word: string; part_of_speech: string }>[] | null = $state(null);
     let search = () => {
+        // @ts-expect-error we dont care about that type
         results = fuse.search(searchInput);
     }
     let searchInput = $state('');
 </script>
 
-<input bind:value={searchInput} on:input={search} placeholder="Search..." />
+<input bind:value={searchInput} oninput={search} placeholder="Search..." />
 {#if results}
     <ul>
         {#each results as result}
