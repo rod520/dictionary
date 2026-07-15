@@ -1,41 +1,58 @@
 # dictionary
+---
+blah blah blah
 
-## guidelines
-### spelling
+---
+# contributing entries
+each entry is a file in a part of speech folder within the entries folder
+#### what goes in misc?
+- sentences/phrases that mean something different from their parts (poishe lagta, nidh yeta etc.)
+- similarly, phrases that have components that act differently (karunka, maka zai)
+- interrogative words (kaale, kite)
+  - subject to change
+- non-pronoun pro-forms (angaa, tha/y, i.sin, ti.sin)
+## spelling
 spelling uses velthuis romanization. For more info see [wikipedia: velthuis](https://en.wikipedia.org/wiki/Velthuis)
+
 additionally, to try it yourself, try [aksharamukha](https://www.aksharamukha.com/converter) to convert to and from velthuis romanization
 
-### format
+(aksharamukha doesn't allow using /, so replace it with ~m when testing)
+## format
 entries are .json files that follow this format:
 ```json
 {
-  "konkani_word": "template",
-  "meaning": ["template"],
-  "part_of_speech": "noun",
-  "keywords": ["templates"],
+  "konkani_word": "",
+  "meaning": [""],
+  "part_of_speech": "",
+  "keywords": [""],
   "forms": [
     {  
-      "label": "plural",
-      "form_value": "templates"
+      "label": "",
+      "form_value": ""
     }
   ],
   "examples": [
     {
-      "konkani_sentence": "template bitr gal",
-      "english_sentence": "put in the template"
+      "konkani_sentence": "",
+      "english_sentence": ""
     }
   ],
-  "categories": ["template"],
-  "status": "draft",
+  "categories": [""], // find categories in schema/entry.ts
+  "status": "draft", // or published
   "note":""
 }
 ```
-#### keywords
-keywords are used for search. They include the word itself, alternate spellings, english meanings and synonyms of the english meaning. 
+`[]` is a list of items
+`{}` is a grouping of text fields
+`""` is text
+if a word starts with a period (i.e. .sik), replace the leading period with _ (_sik.json)
+### keywords
+keywords are used for search. They include the word itself, alternate spellings, commonly used forms, english meanings and synonyms of the english meaning. 
 Additionally, if the word is close to another language's word, that word should also go there
 use your best judgement
-### forms
+## forms
 the different forms the entry can take
+the label should have 
 #### examples
 add examples for every form that needs one
 use your best judgement
@@ -47,5 +64,6 @@ if a verb conjugates irregularly (i.e. ye -> aile), add all forms that conjugate
 additionally, always add the gerund and infinitive (doing and to do, karun and karunk, respectively) if the verb ends in a **vowel**
 #### adjectives
 add all adjective forms (i.e. boro, bari, bare, or sarlo, saro na)
-#### phrases
+#### misc
 if a phrase changes depending on the verb/noun/subject/situation, include it
+## examples
