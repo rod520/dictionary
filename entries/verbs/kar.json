@@ -10,14 +10,7 @@
 }
   ],
   "examples": [
-    {
-      "konkani_sentence": "(te) mez thaau kad",
-      "english_sentence": "take (it) from the table"
-    },
-    {
-      "konkani_sentence": "haav (te) getle",
-      "english_sentence": "I took (it)"
-    }
+
   ],
   "categories": ["beginner"],
   "status": "published",

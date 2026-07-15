@@ -5,16 +5,28 @@
   "keywords": ["ie", "ye", "come", "arrive"],
   "forms": [
     {  
-      "label": "I arrived",
-      "form_value": "ailo" 
+      "label": "first person past tense (I arrived)",
+      "form_value": "(haa/u) ailo" 
     },
     {
-      "label": "you arrived",
-      "form_value": "aile"
+      "label": "second person past tense (you arrived)",
+      "form_value": "(tu) aile"
     },
     {
-      "label": "you arrived",
-      "form_value": "aile"
+      "label": "third person feminine past tense (she arrived)",
+      "form_value": "(te/) aile"
+    },
+    {
+      "label": "third person masculine past tense (he arrived)",
+      "form_value": "(to) ailo"
+    },
+    {
+      "label": "third person plural past tense (they arrived)",
+      "form_value": "(ti/) aili"
+    },
+    {
+      "label": "first person plural past tense (we arrived)",
+      "form_value": "(ami) ailyau"
     }
   ],
   "examples": [

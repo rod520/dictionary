@@ -1,0 +1,41 @@
+{
+  "konkani_word": "vos",
+  "meaning": ["go", "leave"],
+  "part_of_speech": "verb",
+  "keywords": ["vos", "go", "leave", "depart"],
+  "forms": [
+    {  
+      "label": "first person past tense (I went)",
+      "form_value": "(haa/u) gello" 
+    },
+    {
+      "label": "second person past tense (you went)",
+      "form_value": "(tu) gelle/"
+    },
+    {
+      "label": "third person feminine past tense (she went)",
+      "form_value": "(te/) gelle/"
+    },
+    {
+      "label": "third person masculine past tense (he went)",
+      "form_value": "(to) gello"
+    },
+    {
+      "label": "third person plural past tense (they went)",
+      "form_value": "(ti/) gelli/"
+    },
+    {
+      "label": "first person plural past tense (we went)",
+      "form_value": "(ami) gellyau"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "angaa ye",
+      "english_sentence": "in the template"
+    }
+  ],
+  "categories": ["beginner"],
+  "status": "published",
+  "note":""
+}
