@@ -13,7 +13,7 @@ each entry is a file in a part of speech folder within the entries folder
 - non-pronoun pro-forms (angaa, tha/y, i.sin, ti.sin)
 ## spelling
 spelling uses velthuis romanization. For more info see [wikipedia: velthuis](https://en.wikipedia.org/wiki/Velthuis)
-
+we added z for ಝ/ज़ and ll for ಳ/ळ
 additionally, to try it yourself, try [aksharamukha](https://www.aksharamukha.com/converter) to convert to and from velthuis romanization
 
 (aksharamukha doesn't allow using /, so replace it with ~m when testing)
