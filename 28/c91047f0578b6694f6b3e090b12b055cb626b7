@@ -1,0 +1,14 @@
+README.md
+  h_7ffaac8f5937a6 1-31,33-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "28c91047f0578b6694f6b3e090b12b055cb626b7",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
