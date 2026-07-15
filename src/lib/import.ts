@@ -11,7 +11,8 @@ entry.path = entriesPath[index].replace('.json', '').replace(/^\/?entries\/(\w+)
 console.log('entry.path:', entry.path)
     return entry
 
-}) as Entry[]
+})
+    .filter((entry) => entry.status === 'published') as Entry[]
 type Entry = {
     konkani_word: string;
     meaning: string[];

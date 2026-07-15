@@ -6,7 +6,7 @@
 
 import type { FuseResult } from 'fuse.js';
     import { fuse } from '$lib/fuse';
-    let results: FuseResult<{ keyword: string; path: string; konkani_word: string; }>[] | null = $state(null);
+    let results: FuseResult<{ keyword: string; path: string; konkani_word: string; part_of_speech: string }>[] | null = $state(null);
     let search = () => {
         results = fuse.search(searchInput);
     }
