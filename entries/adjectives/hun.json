@@ -12,7 +12,7 @@
       "english_sentence": "heat up the food"
     }
   ],
-  "categories": ["beginner"],
+  "categories": ["beginner", "temperature"],
   "status": "published",
-  "note":""
+  "note":"not for weather"
 }
