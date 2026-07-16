@@ -8,8 +8,14 @@
   ],
   "examples": [
     {
-      "konkani_sentence": "bair tund asa",
+      "konkani_sentence": "bair tand asa",
       "english_sentence": "its cold outside"
+    },
+    {"konkani_sentence": "maaka tund kata",
+     "english_sentence": "I feel cold"
+    },
+    {"konkani_sentence": "maaka tund lagta",
+     "english_sentence": "I feel cold"
     }
   ],
   "categories": ["beginner", "temperature"],
