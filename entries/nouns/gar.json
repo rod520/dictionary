@@ -6,11 +6,11 @@
   "forms": [
     {
       "label": "plural (houses)",
-      "form_value": "garaa"
+      "value": "garaa"
     },
     {
       "label": "locative (to the house)",
-      "form_value": "garaa"
+      "value": "garaa"
     }
   ],
   "examples": [

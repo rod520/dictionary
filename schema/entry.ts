@@ -4,7 +4,7 @@ export const categories = ["beginner", "meals", "cooking", "gardening", "tempera
 // Also note that "template" should not be a category, only for template.json for now
 export const FormSchema = z.object({
     label: z.string(),
-    form_value: z.string(),
+    value: z.string(),
     note: z.string().optional(),
 });
 

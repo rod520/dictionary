@@ -6,27 +6,27 @@
   "forms": [
     {
       "label": "possessive feminine (your)",
-      "form_value": "tuje"
+      "value": "tuje"
     },
     {
       "label": "possessive masculine (your)",
-      "form_value": "tuzo"
+      "value": "tuzo"
     },
     {
       "label": "possessive neuter (your)",
-      "form_value": "tujya"
+      "value": "tujya"
     },
     {
       "label": "possessive plural (your)",
-      "form_value": "tuji"
+      "value": "tuji"
     },
     {
       "label": "dative (to you)",
-      "form_value": "tukaa"
+      "value": "tukaa"
     },
     {
       "label": "past tense (you did)",
-      "form_value": "tuv"
+      "value": "tuv"
     }
   ],
   "examples": [

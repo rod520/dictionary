@@ -6,27 +6,27 @@
   "forms": [
     {
       "label": "possessive feminine (my)",
-      "form_value": "muje"
+      "value": "muje"
     },
     {
       "label": "possessive masculine (my)",
-      "form_value": "muzo"
+      "value": "muzo"
     },
     {
       "label": "possessive neuter (my)",
-      "form_value": "mujya"
+      "value": "mujya"
     },
     {
       "label": "possessive plural (my)",
-      "form_value": "muji"
+      "value": "muji"
     },
     {
       "label": "dative (to me)",
-      "form_value": "makaa"
+      "value": "makaa"
     },
     {
       "label": "past tense (I did)",
-      "form_value": "haav"
+      "value": "haav"
     }
   ],
   "examples": [

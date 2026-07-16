@@ -13,11 +13,11 @@
   "forms": [
     {
       "label": "more recent past tense",
-      "form_value": "keli/kele"
+      "value": "keli/kele"
     },
     {
       "label": "earlier past tense",
-      "form_value": "kela"
+      "value": "kela"
     }
   ],
   "examples": [
