@@ -6,21 +6,23 @@
 	console.log(data);
 </script>
 
-{JSON.stringify(data, null, 2)}
-<div class="word">{data.konkani_word}</div>
-<div class="part-of-speech">{data.part_of_speech}</div>
+<h1><div class="word">{data.konkani_word}</div></h1>
+<h3 class="part-of-speech">{data.part_of_speech}</h3>
 <br />
+<p> meaning: </p>
 <ul>
 	{#each data.meaning as meaning}
 		<li>{meaning}</li>
 	{/each}
 </ul>
 <br />
+
 <ul>
 	{#each data.forms as form}
 		<li>{form.label}: {form.value}</li>
 	{/each}
 </ul>
+<p>examples: </p>
 <ul>
     {#each data.examples as example}
         <li>
@@ -28,6 +30,7 @@
         </li>
     {/each}
 </ul>
+<p> categories: </p>
 <ul>
     {#each data.categories as category}
         <li>{category}</li>

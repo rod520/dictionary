@@ -1,18 +1,42 @@
 {
   "konkani_word": "kar",
-  "meaning": ["do", "make"],
+  "meaning": [
+    "do",
+    "make"
+  ],
   "part_of_speech": "verb",
-  "keywords": ["kar", "do", "make"],
+  "keywords": [
+    "kar",
+    "do",
+    "make"
+  ],
   "forms": [
-{
-  "label": "past tense",
-  "form_value": "kele"
-}
+    {
+      "label": "more recent past tense",
+      "form_value": "keli/kele"
+    },
+    {
+      "label": "earlier past tense",
+      "form_value": "kela"
+    }
   ],
   "examples": [
-
+    {
+      "konkani_sentence": "haave .siit keli",
+      "english_sentence": "I cooked rice"
+    },
+    {
+      "konkani_sentence": "haave .siit kele",
+      "english_sentence": "I cooked rice"
+    },
+    {
+      "konkani_sentence": "haave raandhoi kela",
+      "english_sentence": "I cooked vegetable (then)"
+    }
   ],
-  "categories": ["beginner"],
+  "categories": [
+    "beginner"
+  ],
   "status": "published",
-  "note":""
+  "note": ""
 }
