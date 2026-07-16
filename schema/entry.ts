@@ -11,6 +11,7 @@ export const FormSchema = z.object({
 export const ExampleSchema = z.object({
     konkani_sentence: z.string(),
     english_sentence: z.string(),
+    literal_translation: z.string().optional(),
 });
 
 // Folder name (inside words/) -> the part_of_speech value expected in the file
