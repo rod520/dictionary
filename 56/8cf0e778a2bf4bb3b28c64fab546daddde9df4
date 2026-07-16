@@ -1,0 +1,49 @@
+"entries/misc/kar naka.json"
+  s_259527bd856504::t_d0266b3ddcbd61 5
+  h_7ffaac8f5937a6 11-12,17-18,20-21,23
+  s_259527bd856504::t_3bb98d5911c36b 2-4
+"entries/misc/nid yeta.json"
+  s_6699b1d1d27ed9::t_fb4adb3835dfdd 13
+  h_7ffaac8f5937a6 3,5,11-12,16-19
+entries/verbs/bos.json
+  h_7ffaac8f5937a6 15
+  s_5d42f1d6d604d8::t_a5cae75eba6518 16
+  s_5d42f1d6d604d8::t_5811b51d9227fe 17-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "568cf0e778a2bf4bb3b28c64fab546daddde9df4",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_259527bd856504": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784238656295",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_5d42f1d6d604d8": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784238500312",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_6699b1d1d27ed9": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784238848464",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
