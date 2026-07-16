@@ -4,23 +4,17 @@
   "part_of_speech": "verb",
   "keywords": ["pie", "drink"],
   "forms": [
-    {
-      "label": "gerund (drinking)",
-      "value": "jeun"
-    }
+    
   ],
   "examples": [
     {
-      "konkani_sentence": "buk lagta zalar kha",
-      "english_sentence": "if your'e hungry, eat",
-      "literal": "feeling hunger, then eat"
-    },
+      "konkani_sentence": "ca pie",
+      "english_sentence": "drink tea"    },
     {
-      "konkani_sentence": "haa/u khata",
-      "english_sentence": "I will eat"
+      "konkani_sentence": "taand laglar, uudak pie",
+      "english_sentence": "if your'e thirsty, drink water"
     }
   ],
   "categories": ["beginner", "meals"],
-  "status": "published",
-  "note":"refers to eating breakfast and snacks, not lunch or dinner. Jo refers to lunch and dinner"
+  "status": "published"
 }
