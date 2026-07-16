@@ -1,0 +1,25 @@
+{
+  "konkani_word": "jo",
+  "meaning": ["eat"],
+  "part_of_speech": "verb",
+  "keywords": ["jo", "eat"],
+  "forms": [
+    {
+      "label": "gerund (eating)",
+      "form_value": "jeun"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "buk lagta zalar jo",
+      "english_sentence": "if your'e hungry, eat"
+    },
+    {
+      "konkani_sentence": "haa/u jota",
+      "english_sentence": "I will eat"
+    }
+  ],
+  "categories": ["beginner", "meals"],
+  "status": "published",
+  "note":"refers to eating lunch and dinner, not breakfast. Kha refers to breakfast and snacks"
+}

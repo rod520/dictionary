@@ -1,5 +1,5 @@
 import { z } from "zod";
-export const categories = ["beginner", "cooking", "gardening", "temperature"] as const;
+export const categories = ["beginner", "meals", "cooking", "gardening", "temperature"] as const;
 // todo: fill more categories, and maybe move this to a separate file. 
 // Also note that "template" should not be a category, only for template.json for now
 export const FormSchema = z.object({
@@ -11,7 +11,7 @@ export const FormSchema = z.object({
 export const ExampleSchema = z.object({
     konkani_sentence: z.string(),
     english_sentence: z.string(),
-    literal_translation: z.string().optional(),
+    literal: z.string().optional(),
 });
 
 // Folder name (inside words/) -> the part_of_speech value expected in the file
