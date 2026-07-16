@@ -1,0 +1,35 @@
+"entries/misc/naaunk veta.json"
+  s_32c38d956ed98c::t_a4041afa4aec08 3
+  s_6264586158172d::t_a949e3bbdef738 5
+  h_7ffaac8f5937a6 11-12,15-16
+  s_32c38d956ed98c::t_75d480d182b762 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7feffcd345fc1aad919bfbf66343f08c60ceb970",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_32c38d956ed98c": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784239058824",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_6264586158172d": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784239063782",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
