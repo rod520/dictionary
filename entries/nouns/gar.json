@@ -1,0 +1,28 @@
+{
+  "konkani_word": "gar",
+  "meaning": ["house"],
+  "part_of_speech": "noun",
+  "keywords": ["gar", "house"],
+  "forms": [
+    {
+      "label": "plural (houses)",
+      "form_value": "garaa"
+    },
+    {
+      "label": "locative (to the house)",
+      "form_value": "garaa"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "maka garaa vosun zai",
+      "english_sentence": "I want to go home"
+    },
+    {
+      "konkani_sentence": "kadela garak zai",
+      "english_sentence": "we have enough chairs"
+    }
+  ],
+  "categories": ["beginner"],
+  "status": "published"
+}

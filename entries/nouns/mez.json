@@ -1,0 +1,28 @@
+{
+  "konkani_word": "mez",
+  "meaning": ["table"],
+  "part_of_speech": "noun",
+  "keywords": ["mez", "table"],
+  "forms": [
+    {
+      "label": "plural (tables)",
+      "form_value": "mezaa"
+    }
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "ca mezar asa",
+      "english_sentence": "there's tea on the table"
+    },
+    {
+      "konkani_sentence": "meza lagi kadelar bos",
+      "english_sentence": "sit on the chair near the table"
+    },
+    {
+        "konkani_sentence": "mez puton gele",
+        "english_sentence": "the table broke"
+    }
+  ],
+  "categories": ["beginner", "meals"],
+  "status": "published"
+}
