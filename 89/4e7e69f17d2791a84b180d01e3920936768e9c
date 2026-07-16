@@ -1,0 +1,20 @@
+entries/nouns/gaadi.json
+  h_7ffaac8f5937a6 1-21
+entries/nouns/kadela.json
+  h_7ffaac8f5937a6 1-26
+entries/nouns/gar.json
+  h_7ffaac8f5937a6 1-28
+entries/nouns/mez.json
+  h_7ffaac8f5937a6 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "894e7e69f17d2791a84b180d01e3920936768e9c",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
