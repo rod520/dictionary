@@ -1,0 +1,22 @@
+{
+  "konkani_word": "naaunk veta",
+  "meaning": ["will take a shower", "taking a shower"],
+  "part_of_speech": "misc",
+  "keywords": ["naaunk veta", "taking a shower", "will take a shower"],
+  "forms": [
+    
+  ],
+  "examples": [
+    {
+      "konkani_sentence": "haa/u naaunk veta",
+      "english_sentence": "i'm taking a shower"
+    },
+    {
+      "konkani_sentence": "naaunk vos",
+      "english_sentence": "take a shower"
+    }
+    
+  ],
+  "categories": ["beginner"],
+  "status": "published"
+}
