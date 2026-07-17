@@ -12,11 +12,11 @@
     "forms": [],
     "examples": [
         {
-            "konkani_sentence": "haa/u naaste asa",
+            "konkani_sentence": "haau naaste asa",
             "english_sentence": "I am dancing"
         },
         {
-            "konkani_sentence": "haa/u naasun asa",
+            "konkani_sentence": "haau naasun asa",
             "english_sentence": "I am dancing"
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "english_sentence": "I like to dance",
-            "konkani_sentence": "maka naasun bore zata"
+            "konkani_sentence": "maka naasunk bore zata"
         },
         {
             "english_sentence": "let's dance",

@@ -7,15 +7,19 @@
     {
       "label": "gerund (eating)",
       "value": "jeun"
+    },
+    {
+      "label": "infinitive (to eat)",
+      "value": "jeunk"
     }
   ],
   "examples": [
     {
       "konkani_sentence": "buk lagta zalar jo",
-      "english_sentence": "if your'e hungry, eat"
+      "english_sentence": "if you're hungry, eat"
     },
     {
-      "konkani_sentence": "haa/u jota",
+      "konkani_sentence": "haau jota",
       "english_sentence": "I will eat"
     }
   ],

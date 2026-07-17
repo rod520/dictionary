@@ -9,11 +9,11 @@
   "examples": [
     {
       "konkani_sentence": "buk lagta zalar khaa",
-      "english_sentence": "if your'e hungry, eat",
+      "english_sentence": "if you're hungry, eat",
       "literal": "feeling hunger, then eat"
     },
     {
-      "konkani_sentence": "haa/u khaata",
+      "konkani_sentence": "haau khaata",
       "english_sentence": "I will eat"
     }
   ],

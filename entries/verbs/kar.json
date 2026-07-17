@@ -27,11 +27,12 @@
     },
     {
       "konkani_sentence": "haave .siit kele",
-      "english_sentence": "I cooked rice"
+      "english_sentence": "I cooked rice",
+      "literal": "I made rice"
     },
     {
       "konkani_sentence": "haave raandhoi kela",
-      "english_sentence": "I cooked vegetable (then)"
+      "english_sentence": "I cooked vegetable (earlier)"
     }
   ],
   "categories": [

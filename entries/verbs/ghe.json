@@ -11,11 +11,11 @@
   ],
   "examples": [
     {
-      "konkani_sentence": "(te/) haa/u thaau ghe",
+      "konkani_sentence": "(te) haau thaau ghe",
       "english_sentence": "take (it) from me"
     },
     {
-      "konkani_sentence": "haave/ (te/) getle/",
+      "konkani_sentence": "haave (te) getle",
       "english_sentence": "I took (it)"
     }
   ],
