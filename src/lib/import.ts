@@ -7,10 +7,12 @@ const entriesPath = Object.keys(entriesImport)
 export const entries = Object.values(entriesArray).map((entry, index) => {
     //@ts-expect-error thats fine
     entry.keywords = entry.keywords.map((keyword) => keyword.toLowerCase())
-    // the first replace removes the .json extension, the second replace changes the path to a more readable format, and the third replace changes leading underscores to periods
+    // the first replace removes the .json extension, the second replace changes the path to a more readable format, the third takes out spaces and replaces them with underscores
     //@ts-expect-error again, fine
     entry.path = entriesPath[index]
         .replace('.json', '')
+        .replace(" ", "_")
+
         .replace(/^\/?entries\/(\w+)\/(\w+)$/, '/entries/$1-$2')
 
     return entry
