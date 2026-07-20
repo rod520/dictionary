@@ -42,14 +42,13 @@
 <input type="radio" bind:group={part_of_speech} value="misc" /> Misc
 <br />
 <input type="text" placeholder="Enter a new word" bind:value={konkani_word} />
-<!-- the following keeps deselecting when you type. probably has something to do with reactivity. maybe just take out the whole thing and replace like how table is below?-->
 <table>
     <tbody>
         <tr>
             <th>Meaning</th>
             <th></th>
         </tr>
-        {#each meaning as m, index (m)}
+        {#each meaning as m, index (index)}
             <tr>
                 <td><input type="text" placeholder="Enter the meaning" bind:value={meaning[index]} /></td>
                 <td><button onclick={() => meaning.splice(index, 1)}>Remove</button></td>
@@ -70,9 +69,10 @@ keywords:
 	{#each meaning as m (m)}
 		<li>{m}</li>
 	{/each}
-	{#each addedKeywords as keyword (keyword)}
-		<li><input type="text" bind:value={addedKeywords[addedKeywords.indexOf(keyword)]} /></li>
+	{#each addedKeywords as keyword, i (i)}
+		<li><input type="text" bind:value={addedKeywords[i]} /></li>
 	{/each}
+    <button onclick={() => addedKeywords.push('')}>Add Keyword</button>
 </ul>
 
 examples
@@ -82,7 +82,7 @@ examples
 			<th>Example</th>
 			<th>Translation</th>
 		</tr>
-		{#each examples as example, index (example)}
+		{#each examples as example, index (index)}
 			<tr>
 				<td
 					><input
