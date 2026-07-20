@@ -1,0 +1,21 @@
+{
+    "konkani_word": "mama",
+    "meaning": [
+        "uncle"
+    ],
+    "part_of_speech": "noun",
+    "keywords": [
+        "mama",
+        "uncle"
+    ],
+    "examples": [
+        {
+            "example": "muzo mama garaa ailaa",
+            "translation": "my uncle came home"
+        }
+    ],
+    "categories": [
+        "family"
+    ],
+    "note": "only for mother's brother"
+}
