@@ -19,4 +19,3 @@
 
 
 <a href={resolve('/create')}>Create a new entry</a>
-{JSON.stringify(entries, null, 2)}
