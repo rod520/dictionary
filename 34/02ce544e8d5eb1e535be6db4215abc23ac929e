@@ -1,0 +1,26 @@
+entries/misc/dogi.json
+  s_00bccd0ebf6cd6::t_c7f7eb4aae0be4 3
+  h_7ffaac8f5937a6 5,11-12,14
+  s_00bccd0ebf6cd6::t_d2889c8deac5e2 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3402ce544e8d5eb1e535be6db4215abc23ac929e",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_00bccd0ebf6cd6": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784558207234",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
