@@ -129,6 +129,9 @@ examples
     <textarea bind:value={note} placeholder="Enter your note here"></textarea>
 {/if}
 
+
 <br />
-Result:
+<h1>Result</h1>
+<br />
+
 <code>{jsonString}</code>
