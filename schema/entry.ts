@@ -1,5 +1,5 @@
 import { z } from "zod";
-export const categories = ["beginner", "meals", "cooking", "gardening", "temperature"] as const;
+import { categories } from "./categories";
 // todo: fill more categories, and maybe move this to a separate file. 
 // Also note that "template" should not be a category, only for template.json for now
 export const FormSchema = z.object({
