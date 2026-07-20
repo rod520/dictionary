@@ -1,0 +1,24 @@
+entries/verbs/pus.json
+  h_7ffaac8f5937a6 1-24
+entries/nouns/igarz.json
+  h_7ffaac8f5937a6 1-27
+entries/nouns/kumsar.json
+  h_7ffaac8f5937a6 1-28
+entries/verbs/boroi.json
+  h_7ffaac8f5937a6 1-25
+entries/verbs/waas.json
+  h_7ffaac8f5937a6 1-21
+"entries/misc/zaado mar.json"
+  h_7ffaac8f5937a6 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f7ccd4d9cf71ac41e43b991d6f6e8509430e670c",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
