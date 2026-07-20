@@ -1,19 +1,19 @@
 {
-  "konkani_word": "nid yeta",
+  "konkani_word": "nid yetaa",
   "meaning": ["feeling sleepy"],
   "part_of_speech": "misc",
-  "keywords": ["nid yeta", "feeling sleepy", "drowsy"],
+  "keywords": ["nid yetaa", "feeling sleepy", "drowsy"],
   "forms": [
     
   ],
   "examples": [
     {
-      "konkani_sentence": "maaka nid yeta",
+      "konkani_sentence": "maaka nid yetaa",
       "english_sentence": "i'm feeling sleepy",
       "literal": "sleep is coming to me"
     },
     {
-      "konkani_sentence": "nid yeta zalar nidunk vos",
+      "konkani_sentence": "nid yetaa zalar nidunk vos",
       "english_sentence": "if your'e feeling sleepy, go to sleep"
     }
     

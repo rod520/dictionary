@@ -1,5 +1,5 @@
 {
-  "konkani_word": "kar naka",
+  "konkani_word": "kar nakaa",
   "meaning": ["don't do"],
   "part_of_speech": "misc",
   "keywords": ["kar naka", "don't do"],
@@ -8,15 +8,15 @@
   ],
   "examples": [
     {
-      "konkani_sentence": "kar naka",
+      "konkani_sentence": "kar nakaa",
       "english_sentence": "don't do"
     },
     {
-      "konkani_sentence": "bosa naka, ut",
+      "konkani_sentence": "bosa nakaa, ut",
       "english_sentence": "don't sit, get up"
     },
     {
-        "konkani_sentence": "daawa naka",
+        "konkani_sentence": "daawa nakaa",
         "english_sentence": "don't run"
     }
   ],
