@@ -1,0 +1,25 @@
+{
+    "konkani_word": "vustur",
+    "meaning": [
+        "clothes"
+    ],
+    "part_of_speech": "noun",
+    "keywords": [
+        "vustur",
+        "clothes"
+    ],
+    "examples": [
+        {
+            "example": "vustur gal",
+            "translation": "put on clothes"
+        },
+        {
+            "example": "vustur dhu",
+            "translation": "wash clothes"
+        }
+    ],
+    "categories": [
+        "clothing",
+        "beginner"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "konkani_word": "iskal",
+    "meaning": [
+        "school"
+    ],
+    "part_of_speech": "noun",
+    "keywords": [
+        "iskal",
+        "school"
+    ],
+    "forms": [],
+    "examples": [
+        {
+            "example": "haau aaz iskalak vetaa",
+            "translation": "I am going to school today"
+        },
+        {
+            "example": "aaz iskal na",
+            "translation": "there is no school today"
+        },
+        {
+            "example": "aaz iskalak raza",
+            "translation": "theres a holiday today"
+        }
+    ],
+    "categories": [
+        "school"
+    ]
+}

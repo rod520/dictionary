@@ -8,7 +8,7 @@
     let isNote = $state(false);
     let note = $state('');
 	let part_of_speech: (typeof parts_of_speech)[number] = $state('noun'); // default value
-
+    let forms = $state<{ label: string; value: string }[]>([]);
 	let addedKeywords: string[] = $state([]);
 	let keywords: string[] = $derived.by(() => {
 		const baseKeywords = [konkani_word, ...meaning];
@@ -25,6 +25,7 @@
             meaning,
             part_of_speech,
             keywords,
+            forms,
             examples,
             categories,
             note: isNote ? note : undefined
@@ -73,6 +74,26 @@ keywords:
 		<li><input type="text" bind:value={addedKeywords[i]} /></li>
 	{/each}
     <button onclick={() => addedKeywords.push('')}>Add Keyword</button>
+</ul>
+
+forms
+<ul>
+	{#each forms as _form, index (index)}
+        <li>
+            <input
+                type="text"
+                placeholder="Enter the label"
+                bind:value={forms[index].label}
+            />
+            <input
+                type="text"
+                placeholder="Enter the value"
+                bind:value={forms[index].value}
+            />
+            <button onclick={() => forms.splice(index, 1)}>Remove</button>
+        </li>
+    {/each}
+    <button onclick={() => forms.push({ label: '', value: '' })}>Add Form</button>
 </ul>
 
 examples
