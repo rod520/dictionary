@@ -6,15 +6,15 @@
   "forms": [
     {  
       "label": "first person past tense (I went)",
-      "value": "(haa/u) gello" 
+      "value": "(haau) gello" 
     },
     {
       "label": "second person past tense (you went)",
-      "value": "(tu) gelle/"
+      "value": "(tu) gelle"
     },
     {
       "label": "third person feminine past tense (she went)",
-      "value": "(te/) gelle/"
+      "value": "(te) gelle"
     },
     {
       "label": "third person masculine past tense (he went)",
@@ -22,7 +22,7 @@
     },
     {
       "label": "third person plural past tense (they went)",
-      "value": "(ti/) gelli/"
+      "value": "(ti) gelli"
     },
     {
       "label": "first person plural past tense (we went)",
