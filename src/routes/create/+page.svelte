@@ -30,6 +30,10 @@
             note: isNote ? note : undefined
         };
     });
+
+    let jsonString = $derived.by(() => {
+        return JSON.stringify(entry, null, 2);
+    });
 </script>
 
 <input type="radio" bind:group={part_of_speech} value="noun" /> Noun
@@ -110,3 +114,7 @@ examples
 {#if isNote}
     <textarea bind:value={note} placeholder="Enter your note here"></textarea>
 {/if}
+
+<br />
+Result:
+<code>{jsonString}</code>
