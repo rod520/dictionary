@@ -1,8 +1,8 @@
 {
-  "konkani_word": "haa/u",
+  "konkani_word": "haau",
   "meaning": ["I", "me"],
   "part_of_speech": "pronoun",
-  "keywords": ["haa/u", "haanv", "haav", "I", "me", "my", "mine"],
+  "keywords": ["haau", "haanv", "haav", "I", "me", "my", "mine"],
   "forms": [
     {
       "label": "possessive feminine (my)",
@@ -31,7 +31,7 @@
   ],
   "examples": [
     {
-      "konkani_sentence": "haa/u konkani .sikta",
+      "konkani_sentence": "haau konkani xikta",
       "english_sentence": "I'm learning konkani"
     }
   ],

@@ -1,14 +1,14 @@
 {
-  "konkani_word": ".siik",
+  "konkani_word": "xiik",
   "meaning": ["learn"],
   "part_of_speech": "verb",
-  "keywords": ["siik",".siik", "xik", "shik", "learn"],
+  "keywords": ["siik", "xik", "shik", "learn"],
   "forms": [
 
   ],
   "examples": [
     {
-      "konkani_sentence": "haau konkani .sikta",
+      "konkani_sentence": "haau konkani xikta",
       "english_sentence": "I'm learning konkani"
     }
   ],

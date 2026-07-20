@@ -12,8 +12,7 @@ export const entries = Object.values(entriesArray).map((entry, index) => {
     entry.path = entriesPath[index]
         .replace('.json', '')
         .replace(/^\/?entries\/(\w+)\/(\w+)$/, '/entries/$1-$2')
-        .replace(/__(\w+)/g, '/$1')      // mid-word slash restore — do this first
-        .replace(/^_(\w+)/, '.$1')       // leading dot restore — now anchored to start
+
     return entry
 
 }) //@ts-expect-error again, fine
