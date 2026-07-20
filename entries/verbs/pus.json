@@ -1,0 +1,24 @@
+{
+    "konkani_word": "pus",
+    "meaning": [
+        "mopping"
+    ],
+    "part_of_speech": "verb",
+    "keywords": [
+        "pus",
+        "mopping"
+    ],
+    "examples": [
+        {
+            "example": "haau pusun asa",
+            "translation": "I am mopping"
+        },
+        {
+            "example": "maaka pusunk asa",
+            "translation": "I have to mop"
+        }
+    ],
+    "categories": [
+        "household"
+    ]
+}

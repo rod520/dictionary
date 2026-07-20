@@ -1,0 +1,24 @@
+{
+    "konkani_word": "zaado mar",
+    "meaning": [
+        "sweep"
+    ],
+    "part_of_speech": "misc",
+    "keywords": [
+        "zaado mar",
+        "sweep"
+    ],
+    "examples": [
+        {
+            "example": "haave sakali zaado marle",
+            "translation": "I swept in the morning"
+        },
+        { 
+            "example": "maaka zaado marunk asaa",
+            "translation": "I have to sweep"
+        }
+    ],
+    "categories": [
+        "household"
+    ]
+}

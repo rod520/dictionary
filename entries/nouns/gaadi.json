@@ -15,7 +15,7 @@
       "english_sentence": "where is the car"
     }
   ],
-  "categories": ["beginner"],
+  "categories": ["beginner", "household"],
   "status": "published",
   "note":"borrowed from hindi, 'car' can also be used"
 }

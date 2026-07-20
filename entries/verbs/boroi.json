@@ -1,0 +1,25 @@
+{
+    "konkani_word": "boroi",
+    "meaning": [
+        "write"
+    ],
+    "part_of_speech": "verb",
+    "keywords": [
+        "boroi",
+        "write"
+    ],
+    "examples": [
+        {
+            "example": "haau boroita",
+            "translation": "I write"
+        },
+        {
+            "example": "tuve sangle, haau boroite asa",
+            "translation": "What you say, that I'm writing"
+        }
+    ],
+    "categories": [
+        "work",
+        "school"
+    ]
+}

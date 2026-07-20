@@ -1,0 +1,27 @@
+{
+    "konkani_word": "igarz",
+    "meaning": [
+        "church"
+    ],
+    "forms": [
+        {
+            "label": "dative",
+            "value": "igarjek"
+        }
+    ],
+    "part_of_speech": "noun",
+    "keywords": [
+        "igarz",
+        "church"
+    ],
+    "examples": [
+        {
+            "example": "haau igarjek vosun kumsar zata",
+            "translation": "I am going to church for confession"
+        }
+    ],
+    "categories": [
+        "buildings",
+        "religion"
+    ]
+}

@@ -23,6 +23,6 @@
         "english_sentence": "the table broke"
     }
   ],
-  "categories": ["beginner", "meals"],
+  "categories": ["beginner", "meals", "household"],
   "status": "published"
 }
