@@ -1,0 +1,32 @@
+entries/nouns/bapu.json
+  h_7ffaac8f5937a6 1-21
+entries/nouns/baba.json
+  h_7ffaac8f5937a6 1-22
+entries/nouns/bhaai.json
+  h_7ffaac8f5937a6 1-22
+entries/nouns/bhaau.json
+  h_7ffaac8f5937a6 1-22
+entries/nouns/aakai.json
+  h_7ffaac8f5937a6 1-21
+entries/nouns/mousi.json
+  h_7ffaac8f5937a6 1-21
+entries/nouns/bapoi.json
+  h_7ffaac8f5937a6 1-20
+entries/nouns/awei.json
+  h_7ffaac8f5937a6 1-20
+entries/nouns/mama.json
+  h_7ffaac8f5937a6 1-21
+entries/nouns/bhoin.json
+  h_7ffaac8f5937a6 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "56f23819280a1e37c51408a8a58653fcdf0c98e1",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
