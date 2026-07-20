@@ -8,7 +8,7 @@ const options: Fuse.IFuseOptions<typeof entries[0]> = { keys: ['keywords', 'konk
 // take each keyword and make an object with one keyword a path and an entry word  
 export const searchEntries = entries.map((entry) => {
     
-        return { keyword: entry.keywords, path: entry.path, konkani_word: entry.konkani_word, part_of_speech: entry.part_of_speech }
+        return { keywords: entry.keywords.join(', '), path: entry.path, konkani_word: entry.konkani_word, part_of_speech: entry.part_of_speech }
     
 })
 
