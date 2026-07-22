@@ -6,7 +6,7 @@
 
 import type { FuseResult } from 'fuse.js';
     import { fuse } from '$lib/fuse';
-    let results: FuseResult<{ keyword: string[]; path: string; konkani_word: string; part_of_speech: string }>[] | null = $state(null);
+    let results: FuseResult<{ keywords: string; path: string; konkani_word: string; part_of_speech: string }>[] | null = $state(null);
     let search = () => {
         results = fuse.search(searchInput);
     }
@@ -14,7 +14,7 @@ import type { FuseResult } from 'fuse.js';
 </script>
 
 <input bind:value={searchInput} oninput={search} placeholder="Search..." />
-{#if results}
+{#if results && searchInput.length > 0}
     <ul>
         {#each results as result}
             <a href={result.item.path}><li>{result.item.konkani_word}</li></a>
