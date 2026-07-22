@@ -23,5 +23,7 @@
     "categories": [
         "cooking"
     ],
-    "note": "for cooking rice"
+    "note": "for cooking rice",
+          "status": "published"
+
 }

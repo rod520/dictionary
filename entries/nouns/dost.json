@@ -24,5 +24,7 @@
             "english_sentence": "I dont have any friends"
         }
     ],
-    "categories": ["beginner", "gathering", "friends"]
+    "categories": ["beginner", "gathering", "friends"],
+          "status": "published"
+
 }
