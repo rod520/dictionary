@@ -11,12 +11,12 @@
     "forms": [],
     "examples": [
         {
-            "example": "haau pod munthaa",
-            "translation": "I am singing"
+            "konkani_sentence": "haau pod munthaa",
+            "english_sentence": "I am singing"
         },
         {
-            "example": "pod munaa nakaa",
-            "translation": "don't sing"
+            "konkani_sentence": "pod munaa nakaa",
+            "english_sentence": "don't sing"
         }
     ],
     "categories": [

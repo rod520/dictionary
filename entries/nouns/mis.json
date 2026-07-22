@@ -11,12 +11,12 @@
     "forms": [],
     "examples": [
         {
-            "example": "misak vosunk asaa",
-            "translation": "have to go to mass"
+            "konkani_sentence": "misak vosunk asaa",
+            "english_sentence": "have to go to mass"
         },
         {
-            "example": "aaz mis laamb zaale",
-            "translation": "the mass became long"
+            "konkani_sentence": "aaz mis laamb zaale",
+            "english_sentence": "the mass became long"
         }
     ],
     "categories": [

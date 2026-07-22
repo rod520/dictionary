@@ -11,16 +11,16 @@
     "forms": [],
     "examples": [
         {
-            "example": "haau aaz iskalak vetaa",
-            "translation": "I am going to school today"
+            "konkani_sentence": "haau aaz iskalak vetaa",
+            "english_sentence": "I am going to school today"
         },
         {
-            "example": "aaz iskal na",
-            "translation": "there is no school today"
+            "konkani_sentence": "aaz iskal na",
+            "english_sentence": "there is no school today"
         },
         {
-            "example": "aaz iskalak raza",
-            "translation": "theres a holiday today"
+            "konkani_sentence": "aaz iskalak raza",
+            "english_sentence": "theres a holiday today"
         }
     ],
     "categories": [

@@ -10,12 +10,12 @@
     ],
     "examples": [
         {
-            "example": "vustur gal",
-            "translation": "put on clothes"
+            "konkani_sentence": "vustur gal",
+            "english_sentence": "put on clothes"
         },
         {
-            "example": "vustur dhu",
-            "translation": "wash clothes"
+            "konkani_sentence": "vustur dhu",
+            "english_sentence": "wash clothes"
         }
     ],
     "categories": [

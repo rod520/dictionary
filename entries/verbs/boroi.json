@@ -10,12 +10,12 @@
     ],
     "examples": [
         {
-            "example": "haau boroita",
-            "translation": "I write"
+            "konkani_sentence": "haau boroita",
+            "english_sentence": "I write"
         },
         {
-            "example": "tuve sangle, haau boroite asa",
-            "translation": "What you say, that I'm writing"
+            "konkani_sentence": "tuve sangle, haau boroite asa",
+            "english_sentence": "What you say, that I'm writing"
         }
     ],
     "categories": [

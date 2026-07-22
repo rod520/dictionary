@@ -14,8 +14,8 @@
 		const baseKeywords = [konkani_word, ...meaning];
 		return [...baseKeywords, ...addedKeywords].filter((k) => k.trim() !== '');
 	});
-	let examples: { example: string; translation: string }[] = $state([
-		{ example: '', translation: '' }
+	let examples: { konkani_sentence: string; english_sentence: string }[] = $state([
+		{ konkani_sentence: '', english_sentence: '' }
 	]);
     let categories: Category[] = $state([]);
 
@@ -109,21 +109,21 @@ examples
 					><input
 						type="text"
 						placeholder="Enter the example"
-						bind:value={examples[index].example}
+						bind:value={examples[index].konkani_sentence}
 					/></td
 				>
 				<td
 					><input
 						type="text"
 						placeholder="Enter the translation"
-						bind:value={examples[index].translation}
+						bind:value={examples[index].english_sentence}
 					/></td
 				>
 				<td><button onclick={() => examples.splice(index, 1)}>Remove</button></td>
 			</tr>
 		{/each}
             <tr>
-        <td colspan="3"><button onclick={() => examples.push({ example: '', translation: '' })}>Add Example</button></td>
+        <td colspan="3"><button onclick={() => examples.push({ konkani_sentence: '', english_sentence: '' })}>Add Example</button></td>
     </tr>
 	</tbody>
 

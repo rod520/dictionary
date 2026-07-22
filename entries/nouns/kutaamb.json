@@ -16,8 +16,8 @@
     ],
     "examples": [
         {
-            "example": "muje kutmat vodli mai, aab, mai, pai, baba, bhaai, haau bhaau, ani bhain asaat",
-            "translation": "I have a grandmother, grandfather, mother, father, elder brother, elder sister, me, younger sister and younger brother in my family"
+            "konkani_sentence": "muje kutmat vodli mai, aab, mai, pai, baba, bhaai, haau bhaau, ani bhain asaat",
+            "english_sentence": "I have a grandmother, grandfather, mother, father, elder brother, elder sister, me, younger sister and younger brother in my family"
         }
     ],
     "categories": [

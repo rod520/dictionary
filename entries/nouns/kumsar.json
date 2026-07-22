@@ -10,16 +10,16 @@
     ],
     "examples": [
         {
-            "example": "haau igarjek vosun kumsar zata",
-            "translation": "I am going to church for confession"
+            "konkani_sentence": "haau igarjek vosun kumsar zata",
+            "english_sentence": "I am going to church for confession"
         },
         {
-            "example": "muje kaal kumsar zale",
-            "translation": "I finished confession yesterday"
+            "konkani_sentence": "muje kaal kumsar zale",
+            "english_sentence": "I finished confession yesterday"
         },
         {
-            "example": "kumsarak vos",
-            "translation": "go for confession"
+            "konkani_sentence": "kumsarak vos",
+            "english_sentence": "go for confession"
         }
     ],
     "categories": [

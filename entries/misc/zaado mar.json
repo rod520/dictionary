@@ -10,12 +10,12 @@
     ],
     "examples": [
         {
-            "example": "haave sakali zaado marle",
-            "translation": "I swept in the morning"
+            "konkani_sentence": "haave sakali zaado marle",
+            "english_sentence": "I swept in the morning"
         },
         { 
-            "example": "maaka zaado marunk asaa",
-            "translation": "I have to sweep"
+            "konkani_sentence": "maaka zaado marunk asaa",
+            "english_sentence": "I have to sweep"
         }
     ],
     "categories": [

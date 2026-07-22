@@ -10,12 +10,12 @@
     ],
     "examples": [
         {
-            "example": "haau pusun asa",
-            "translation": "I am mopping"
+            "konkani_sentence": "haau pusun asa",
+            "english_sentence": "I am mopping"
         },
         {
-            "example": "maaka pusunk asa",
-            "translation": "I have to mop"
+            "konkani_sentence": "maaka pusunk asa",
+            "english_sentence": "I have to mop"
         }
     ],
     "categories": [
