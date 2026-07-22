@@ -1,0 +1,22 @@
+entries/nouns/kail.json
+  h_7ffaac8f5937a6 1-26
+entries/nouns/dost.json
+  h_7ffaac8f5937a6 1-28
+entries/nouns/handi.json
+  h_7ffaac8f5937a6 1-27
+entries/nouns/murki.json
+  h_7ffaac8f5937a6 1-27
+entries/nouns/du.json
+  h_7ffaac8f5937a6 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "49ccf22a424aa4d10f9c3f8b7a0cf7e1d983544a",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
