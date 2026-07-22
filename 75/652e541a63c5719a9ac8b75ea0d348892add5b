@@ -1,0 +1,40 @@
+entries/nouns/put.json
+  h_7ffaac8f5937a6 1
+entries/nouns/magne.json
+  s_8a74225676c4ea::t_ac08744e30b183 5,10,17,20
+  s_f57d8c12681be6::t_2c70d25fafce2a 21
+  h_7ffaac8f5937a6 14-15
+  s_8a74225676c4ea::t_3b7b23b46bfc9b 2-4
+  s_8a74225676c4ea::t_b27fc316ab9b9c 6-9
+  s_8a74225676c4ea::t_989b566ca4158e 18-19
+  s_f57d8c12681be6::t_bbaedfe91ae0d9 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "75652e541a63c5719a9ac8b75ea0d348892add5b",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_8a74225676c4ea": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784734506805",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    },
+    "s_f57d8c12681be6": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1784734519578",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
