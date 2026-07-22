@@ -1,0 +1,14 @@
+entries/nouns/put.json
+  h_7ffaac8f5937a6 20-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "fc5f8d700f321d35d6b35499fb62a332d2da220c",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
