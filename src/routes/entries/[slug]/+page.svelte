@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
+
 	/* eslint-disable svelte/require-each-key */
 
 	let { data } = $props();
@@ -33,6 +35,6 @@
 <p> categories: </p>
 <ul>
     {#each data.categories as category}
-        <li>{category}</li>
+        <a href={resolve(`/categories/${category}`)}> <li>{category}</li> </a>
     {/each}
 </ul>
