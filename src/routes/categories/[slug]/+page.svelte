@@ -1,4 +1,6 @@
 <script lang="ts">
+/* eslint-disable svelte/no-navigation-without-resolve */
+
 	/* eslint-disable svelte/require-each-key */
 
 	let { data } = $props();
@@ -9,7 +11,7 @@
 </script>
 
 {#each words as entry}
-	{entry.konkani_word} - {entry.meaning[0]}
+	<a href={`${entry.path}`}> {entry.konkani_word} - {entry.meaning[0]} </a> ({entry.part_of_speech})
+	
 	<br/>
-	({entry.part_of_speech})
 {/each}
